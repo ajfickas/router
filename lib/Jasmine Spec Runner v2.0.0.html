@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///Users/ajfickas/code/router/spec/SpecRunner.html -->
+<html data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Jasmine Spec Runner v2.0.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="./Jasmine Spec Runner v2.0.0_files/jasmine.css">
+
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/jasmine.js"></script>
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/jasmine-html.js"></script>
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/boot.js"></script>
+
+  <!-- include source files here... -->
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/jquery-2.1.0.js"></script>
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/jquery.history.js"></script>
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/router.js"></script>
+
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="./Jasmine Spec Runner v2.0.0_files/router_spec.js"></script>
+
+</head>
+
+<body data-ember-extension="1">
+
+
+<div class="html-reporter failure-list"><div class="banner"><span class="title">Jasmine</span><span class="version">2.0.0</span><span class="duration">finished in 0.061s</span></div><ul class="symbol-summary"><li class="failed" id="spec_spec0" title="router #push with a different url than the current page should navigate to a new page as expected"></li><li class="failed" id="spec_spec1" title="router #push with the same url as the current page should refresh the page as expected"></li><li class="failed" id="spec_spec2" title="router #replace replace the current page as expected"></li><li class="failed" id="spec_spec3" title="router when history.back() is called after navigating should navigate back as expected"></li><li class="failed" id="spec_spec4" title="router when history.forward() is called after navigating and then going back should navigate forward as expected"></li></ul><div class="alert"><span class="exceptions"><label class="label" for="raise-exceptions">raise exceptions</label><input class="raise" id="raise-exceptions" type="checkbox"></span><span class="bar failed">5 specs, 5 failures</span><span class="menu bar spec-list"><span>Spec List | </span><a class="failures-menu" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html#">Failures</a></span><span class="menu bar failure-list"><a class="spec-list-menu" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html#">Spec List</a><span> | Failures </span></span></div><div class="results"><div class="failures"><div class="spec-detail failed"><div class="description"><a title="router #push with a different url than the current page should navigate to a new page as expected" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20a%20different%20url%20than%20the%20current%20page%20should%20navigate%20to%20a%20new%20page%20as%20expected">router #push with a different url than the current page should navigate to a new page as expected</a></div><div class="messages"><div class="result-message">Expected spy pushState to have been called with [ null, null, '/some/url' ] but actual calls were [ '13954648342880523825827986002', '', 'file:///some/url' ].</div><div class="stack-trace">Error: Expected spy pushState to have been called with [ null, null, '/some/url' ] but actual calls were [ '13954648342880523825827986002', '', 'file:///some/url' ].
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toHaveBeenCalledWith (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:21:35)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div><div class="result-message">Expected 2 to equal 1.</div><div class="stack-trace">Error: Expected 2 to equal 1.
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:22:38)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div></div></div><div class="spec-detail failed"><div class="description"><a title="router #push with the same url as the current page should refresh the page as expected" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20the%20same%20url%20as%20the%20current%20page%20should%20refresh%20the%20page%20as%20expected">router #push with the same url as the current page should refresh the page as expected</a></div><div class="messages"><div class="result-message">Expected spy pushState to have been called with [ null, null, 'file:///Users/ajfickas/code/router/spec/SpecRunner.html' ] but actual calls were [ '139546450849107420822952408344', '', 'file:///Users/ajfickas/code/router/spec/SpecRunner.html' ].</div><div class="stack-trace">Error: Expected spy pushState to have been called with [ null, null, 'file:///Users/ajfickas/code/router/spec/SpecRunner.html' ] but actual calls were [ '139546450849107420822952408344', '', 'file:///Users/ajfickas/code/router/spec/SpecRunner.html' ].
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toHaveBeenCalledWith (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:41:35)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div><div class="result-message">Expected 3 to equal 1.</div><div class="stack-trace">Error: Expected 3 to equal 1.
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:42:38)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div></div></div><div class="spec-detail failed"><div class="description"><a title="router #replace replace the current page as expected" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23replace%20replace%20the%20current%20page%20as%20expected">router #replace replace the current page as expected</a></div><div class="messages"><div class="result-message">Expected spy replaceState to have been called with [ null, null, '/some/url' ] but actual calls were [ '13954648342880523825827986002', '', 'file:///some/url' ].</div><div class="stack-trace">Error: Expected spy replaceState to have been called with [ null, null, '/some/url' ] but actual calls were [ '13954648342880523825827986002', '', 'file:///some/url' ].
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toHaveBeenCalledWith (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:61:36)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div><div class="result-message">Expected 4 to equal 1.</div><div class="stack-trace">Error: Expected 4 to equal 1.
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:62:36)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div></div></div><div class="spec-detail failed"><div class="description"><a title="router when history.back() is called after navigating should navigate back as expected" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.back()%20is%20called%20after%20navigating%20should%20navigate%20back%20as%20expected">router when history.back() is called after navigating should navigate back as expected</a></div><div class="messages"><div class="result-message">Error: ajax has already been spied upon</div><div class="stack-trace">Error: ajax has already been spied upon
+    at Env.spyOn (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:570:15)
+    at jasmineInterface.spyOn (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/boot.js:69:18)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:74:7)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)
+    at Spec.Env.queueRunnerFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:518:35)
+    at Spec.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:306:10)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1708:37)
+    at attemptAsync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1520:12)</div><div class="result-message">Expected 0 to equal 2.</div><div class="stack-trace">Error: Expected 0 to equal 2.
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:82:36)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div><div class="result-message">Expected [  ] to equal [ { url : undefined, success : Function, error : Function, async : false } ].</div><div class="stack-trace">Error: Expected [  ] to equal [ { url : undefined, success : Function, error : Function, async : false } ].
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:83:39)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div></div></div><div class="spec-detail failed"><div class="description"><a title="router when history.forward() is called after navigating and then going back should navigate forward as expected" href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.forward()%20is%20called%20after%20navigating%20and%20then%20going%20back%20should%20navigate%20forward%20as%20expected">router when history.forward() is called after navigating and then going back should navigate forward as expected</a></div><div class="messages"><div class="result-message">Expected 1 to equal 3.</div><div class="stack-trace">Error: Expected 1 to equal 3.
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:101:36)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div><div class="result-message">Expected [  ] to equal [ { url : '/some/url', success : Function, error : Function, async : false } ].</div><div class="stack-trace">Error: Expected [  ] to equal [ { url : '/some/url', success : Function, error : Function, async : false } ].
+    at stack (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1293:17)
+    at buildExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1270:14)
+    at Spec.Env.expectationResultFactory (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:484:18)
+    at Spec.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:260:46)
+    at Expectation.addExpectationResult (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:442:21)
+    at Expectation.toEqual (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1209:12)
+    at Object.&lt;anonymous&gt; (file:///Users/ajfickas/code/router/spec/router_spec.js:102:39)
+    at attemptSync (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1510:12)
+    at QueueRunner.run (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1498:9)
+    at QueueRunner.execute (file:///Users/ajfickas/code/router/spec/lib/jasmine-2.0.0/jasmine.js:1485:10)</div></div></div></div><div class="summary"><ul class="suite" id="suite-suite1"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router">router</a></li><ul class="suite" id="suite-suite2"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push">#push</a></li><ul class="suite" id="suite-suite3"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20a%20different%20url%20than%20the%20current%20page">with a different url than the current page</a></li><ul class="specs"><li class="failed" id="spec-spec0"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20a%20different%20url%20than%20the%20current%20page%20should%20navigate%20to%20a%20new%20page%20as%20expected">should navigate to a new page as expected</a></li></ul></ul><ul class="suite" id="suite-suite4"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20the%20same%20url%20as%20the%20current%20page">with the same url as the current page</a></li><ul class="specs"><li class="failed" id="spec-spec1"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23push%20with%20the%20same%20url%20as%20the%20current%20page%20should%20refresh%20the%20page%20as%20expected">should refresh the page as expected</a></li></ul></ul></ul><ul class="suite" id="suite-suite5"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23replace">#replace</a></li><ul class="specs"><li class="failed" id="spec-spec2"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20%23replace%20replace%20the%20current%20page%20as%20expected">replace the current page as expected</a></li></ul></ul><ul class="suite" id="suite-suite6"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.back()%20is%20called%20after%20navigating">when history.back() is called after navigating</a></li><ul class="specs"><li class="failed" id="spec-spec3"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.back()%20is%20called%20after%20navigating%20should%20navigate%20back%20as%20expected">should navigate back as expected</a></li></ul></ul><ul class="suite" id="suite-suite7"><li class="suite-detail"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.forward()%20is%20called%20after%20navigating%20and%20then%20going%20back">when history.forward() is called after navigating and then going back</a></li><ul class="specs"><li class="failed" id="spec-spec4"><a href="file:///Users/ajfickas/code/router/spec/SpecRunner.html?spec=router%20when%20history.forward()%20is%20called%20after%20navigating%20and%20then%20going%20back%20should%20navigate%20forward%20as%20expected">should navigate forward as expected</a></li></ul></ul></ul></div></div></div></body></html>
